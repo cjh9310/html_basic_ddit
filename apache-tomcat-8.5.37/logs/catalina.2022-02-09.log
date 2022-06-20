@@ -1,0 +1,54 @@
+09-Feb-2022 09:03:40.616 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.37
+09-Feb-2022 09:03:40.630 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 12 2018 12:07:02 UTC
+09-Feb-2022 09:03:40.630 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.37.0
+09-Feb-2022 09:03:40.630 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Feb-2022 09:03:40.631 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Feb-2022 09:03:40.634 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Feb-2022 09:03:40.634 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+09-Feb-2022 09:03:40.634 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+09-Feb-2022 09:03:40.634 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Feb-2022 09:03:40.635 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37
+09-Feb-2022 09:03:40.635 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37
+09-Feb-2022 09:03:40.637 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\conf\logging.properties
+09-Feb-2022 09:03:40.638 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Feb-2022 09:03:40.638 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Feb-2022 09:03:40.639 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Feb-2022 09:03:40.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Feb-2022 09:03:40.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37
+09-Feb-2022 09:03:40.641 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37
+09-Feb-2022 09:03:40.641 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\temp
+09-Feb-2022 09:03:40.642 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+09-Feb-2022 09:03:40.642 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Feb-2022 09:03:40.643 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Feb-2022 09:03:40.704 정보 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+09-Feb-2022 09:03:40.939 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18080"]
+09-Feb-2022 09:03:41.111 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Feb-2022 09:03:41.127 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-18009"]
+09-Feb-2022 09:03:41.130 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Feb-2022 09:03:41.132 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1082 ms
+09-Feb-2022 09:03:41.184 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Feb-2022 09:03:41.186 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.37
+09-Feb-2022 09:03:41.299 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\MeetingStatus.war]
+09-Feb-2022 09:03:44.351 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Feb-2022 09:03:46.677 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\MeetingStatus.war] has finished in [5,378] ms
+09-Feb-2022 09:03:46.679 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\docs]
+09-Feb-2022 09:03:47.059 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Feb-2022 09:03:47.062 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\docs] has finished in [383] ms
+09-Feb-2022 09:03:47.063 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\examples]
+09-Feb-2022 09:03:48.029 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Feb-2022 09:03:48.070 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\examples] has finished in [1,007] ms
+09-Feb-2022 09:03:48.071 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\first]
+09-Feb-2022 09:03:48.369 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Feb-2022 09:03:48.371 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\first] has finished in [300] ms
+09-Feb-2022 09:03:48.372 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\host-manager]
+09-Feb-2022 09:03:48.693 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Feb-2022 09:03:48.696 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\host-manager] has finished in [324] ms
+09-Feb-2022 09:03:48.697 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\manager]
+09-Feb-2022 09:03:48.987 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Feb-2022 09:03:48.990 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\manager] has finished in [293] ms
+09-Feb-2022 09:03:48.991 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\ROOT]
+09-Feb-2022 09:03:49.241 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Feb-2022 09:03:49.244 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\B_Util\5.ApacheTomcat\apache-tomcat-8.5.37\webapps\ROOT] has finished in [253] ms
+09-Feb-2022 09:03:49.249 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18080"]
+09-Feb-2022 09:03:49.257 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-18009"]
+09-Feb-2022 09:03:49.261 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 8127 ms

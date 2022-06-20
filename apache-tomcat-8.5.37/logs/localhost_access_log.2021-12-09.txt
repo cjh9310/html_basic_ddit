@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:17 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:17 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:17 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:17 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:18 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:18 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:19 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:19 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:19 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104
+0:0:0:0:0:0:0:1 - - [09/Dec/2021:12:19:19 +0900] "GET /webStudy01/09/cookieDesc.jsp HTTP/1.1" 200 2104

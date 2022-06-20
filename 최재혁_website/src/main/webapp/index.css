@@ -1,0 +1,87 @@
+*{margin: 0;padding: 0;}
+
+body{
+    padding: 30px;
+    background-color: white;
+}
+
+header{padding: 5px;}
+header a{text-decoration: none; color: #333;}
+
+nav{margin: 10px; margin-bottom: 20px;}
+
+nav ul{
+    list-style: none;
+    border-top: 1px solid #E0EBFF;
+    border-bottom: 1px solid #E0EBFF;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    letter-spacing: .3em;
+    margin-left: 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    line-height:3em;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{text-decoration: underline;}
+
+/*가운데 본문 영역*/
+section{
+    float: left;
+}
+/*오른쪽 사이드 메뉴*/
+aside#right{
+    float: right;
+    padding: 10px;
+    width: 12em;
+}
+
+aside#right #shopcar{
+    margin-bottom: 30px;
+}
+
+
+footer{
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0px;
+}
+#top_menu {
+    position : absolute;
+    top : 20px;
+    right : 10px;
+    color : white;
+ }
+ 
+ .le{margin: 10px; margin-bottom: 20px;}
+
+.le ul{
+    list-style: none;
+    border-top: 1px solid #E0EBFF;
+    border-bottom: 1px solid #E0EBFF;
+    text-align: center;
+}
+
+.le ul li{
+    display: inline;
+    letter-spacing: .3em;
+    margin-left: 2em;
+}
+
+.le ul li a{
+    text-decoration: none;
+    color: black;
+    line-height:3em;
+    text-transform: uppercase;
+}
+
+.le ul li a:hover{text-decoration: underline;}

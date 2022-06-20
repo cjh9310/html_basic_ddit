@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+#id {
+text-align:center; 
+}
+
+header { 
+ border : solid;
+	box-sizing : border-box;
+	margin : 1px;
+	padding : 4px;
+ 	background-color : black; 
+ 	height : 70px; 
+	border : solid; 
+ 	box-sizing : border-box; 
+ 	margin : 1px; 
+ 	padding : 4px; 
+ 	border-radius : 20px;
+ } 
+footer {
+	border : solid;
+	box-sizing : border-box;
+	margin : 1px;
+	padding : 4px;
+	background-color : skyblue;
+	height : 40px;
+	clear : both;
+	position: relative;
+	top : 1px;
+	text-align:center;
+	border-radius : 20px;
+}
+h1{
+text-align:center;
+ text-decoration : none;
+}
+#right {
+	width : 280px;
+	height : 400px;
+	background : lightpink;
+	float : right;
+	border-radius : 20px;
+	margin: 10px auto;
+}
+#left {
+	width : 280px;
+	height : 400px;
+	background : lightpink;
+	float : left;
+	border-radius : 20px;
+	margin: 10px auto;
+}
+#logo {
+	position : absolute;
+	top : 30px;
+	left : 30px;
+}
+#top_menu {
+	position : absolute;
+	top : 20px;
+	right : 10px;
+	color : white;
+}
+
+nav{
+	position : absolute;
+	top : 90px;
+	left : 260px;
+	font-size : 16px;
+}
+nav li {
+	display : inline;
+	margin-left : 30px;
+}
+nav li a{
+	color : white;
+	text-decoration : none;
+}
+aside#left{
+    float: left;
+    width:200px;
+    margin-right: 16px;
+    
+}
+
+aside#left ul{ list-style: none}
+ 
+aside#left ul li{
+    background-color: rgb(255, 0, 128);
+    padding: 8px 15px;
+    border-bottom: 1px solid black;
+    
+}
+ 
+aside#left ul li a{
+    color: white;
+    text-decoration: none;
+}
+ 
+aside#left ul li:hover{
+    background-color: red;
+}
+ 
+aside#main{
+    float: left;
+}
+#left {
+	 margin-left:10px;
+}
+
+H3 {
+	position : absolute;
+	top : 200px;
+	left : 30px;
+}
+h4-1 {
+	position : absolute;
+	top : 350px;
+	left : 50px;
+}
+</style>
+</head>
+<body>
+<h1> <img src="./images/images.jpg" alt="12번가" width="50" height="50">
+            <a href="index.html">Web Shop</a></h1>
+<div id="page">
+<header>
+<div id ="logo">
+<img src=“../images/images.jpg” alt=“logo”>
+</div>
+
+
+
+<div id ="top_menu">
+	<a href="#">Home</a> |
+	<a href="#">NOTICE</a> |
+	<a href="#">LOGIN</a> |
+	<a href="#">JOIN</a> 
+</div>
+<nav>
+	<ul>
+		<li><a href ="#">HOME  </a></li>
+		<li><a href ="#">SHOPPING ABOUT  </a></li>
+		<li><a href ="#">NEWS  </a></li>
+		<li><a href ="#">MY ACCOUNT  </a></li>
+		<li><a href ="#">CONTACTS  </a></li>
+	</ul>
+</nav>
+</header>
+
+
+<aside id="right">
+        <div id="shopcart">
+            <h4>Shopping Cart</h4>
+            현재 쇼핑카트에 물품이 없습니다.<br>
+            <a href="./shopcart.html">쇼핑카트 보기</a>
+        </div> <br>
+		
+        <div id="login">
+            <h4>Log In</h4>
+            <form action="./login.php" method="POST">
+                아이디
+                <input type="text"><br>
+                패스워드
+                <input type="password"><br>
+                <input type="submit" value="로그인">
+                <input type="reset" value="초기화"><br>
+                <a href="./register.html" target="_blank">회원가입</a>
+                <a href="#">비밀번호 분실</a>
+            </form>
+        </div>
+</aside>
+<aside id ="left">
+	<h4> 카테고리</h4>
+	<ul>
+	<li><a href = "./computer.html" target = "iframe1">식품</a></li>
+	<li><a href = "./computer.html" target = "iframe1">식품</a></li>
+	<li><a href = "./computer.html" target = "iframe1">식품</a></li>
+	<li><a href = "./computer.html" target = "iframe1">식품</a></li>
+	<li><a href = "./computer.html" target = "iframe1">식품</a></li>	
+	</ul>
+</aside>
+  <section id="main">
+        <article>
+            <iframe name="iframe1" src="computer.html"  width="450" height="300"></iframe>
+        </article>
+    </section>
+
+	<footer>대덕인재개발원</footer>
+</div>
+
+
+
+</body>
+</html>
