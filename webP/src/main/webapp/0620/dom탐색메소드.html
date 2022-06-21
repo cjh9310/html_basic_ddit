@@ -86,8 +86,6 @@ $('#inBtn').on('click',function(){
 // 	$(this).parent().css('border','solid green');
 	$(this).parents('#d2').find('span').css('border','solid blue');
 });
-  
-  
 </script>
   <br><br><br>
   
@@ -107,13 +105,17 @@ $('#inBtn').on('click',function(){
       <li>li prev sibling</li>
       <li>li prev sibling</li>
       <li>li prev sibling</li>
-      <li>li "start"</li>
+      <li id="start">li "start"</li>
       <li>li next sibling</li>
       <li>li next sibling</li>
       <li>li "stop"</li>
       <li>li next sibling</li>
     </ul>
   </div>
-
+<script>
+$('#siblings').on('click',function(){
+  $('#start').siblings().css('border','solid red');
+});
+</script>
 </body>
 </html>
