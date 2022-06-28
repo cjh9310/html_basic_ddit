@@ -17,7 +17,7 @@ Statement stmt = conn.createStatement();
 ResultSet rs = stmt.executeQuery("select * from lprod");
 %>
 <table border=1>
-  <tr>
+  <tr style="background-color: blue;">
     <td>아이디</td>
     <td>ㅈㅣ유</td>
     <td>앤엠</td>
